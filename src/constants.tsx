@@ -11,6 +11,12 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   },
 
   {
+    title: "Dashboard",
+    path: "/dashboard",
+    icon: <Icon icon="lucide:layout-dashboard" width="24" height="24" />,
+  },
+
+  {
     title: "Publications",
     path: "/publications",
     icon: <Icon icon="lucide:book-check" width="24" height="24" />,
